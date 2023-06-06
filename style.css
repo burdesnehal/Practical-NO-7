@@ -1,18 +1,29 @@
 body{
-   text-align: center;
+    text-align:center;
+    margin: 170px;
+    font-family: sans-serif;
+    background-image: white;
+}
+div.container{
+    border: 5px solid black;
+    width: 391px;
+    height: 230px;
    
+    background-image: linear-gradient(rgb(243, 181, 65),white);
 }
-div{
-    background-image: linear-gradient(orange,white);
-    border: 3px solid black;
-    width: 30%;
-    margin: auto;
-    margin-right: auto;
-    padding: 20px;
-    height: 50%;
-    margin-top: 150px;
+div.Username{
+    font-size: medium;
+    margin-top: 30px;
 }
-button{
-     background-color:rgb(224, 241, 237);
+div.password{
+    font-size: medium;
+    margin-top: 30px;
 }
-
+div.Another_option{
+    font-size: medium;
+    margin-top: 20px; 
+}
+div.login.button{
+    color: rgb(180, 240, 180);
+    height: 10px;
+}
